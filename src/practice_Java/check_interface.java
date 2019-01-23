@@ -11,6 +11,7 @@ public class check_interface implements practice_Interface {
 
 	public static void main(String[] args) {
 		System.out.println("I am the main ");
+		System.out.println("I am the sub-class implementing practice_Interface ");
 		check_interface c1 = new check_interface();
 		c1.test02();
 		c1.test04();
